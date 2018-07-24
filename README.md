@@ -7,6 +7,7 @@ folders organization:
 (now supports: mxnet-SSD training (and predicting))
 (still working on the voc format conversion)
 
+```
 root
 ├── sources
 │   ├── train_img 
@@ -58,5 +59,6 @@ root
 │   └── <training result folders>
 │
 └── train_distn_sorted.txt //class names sorted by number of samples
+```
   
    (under construction...)
