@@ -96,12 +96,12 @@ def gen_lst(set_idx):
 			fn_old=rows[0]
 
 		if np.min(counts)>=img_num:
-			print('job completed! voc index file generated: /sources/rec_files/train_series_'+str(set_idx)+'.lst')
+			print('job completed! mx .lst file generated: /sources/rec_files/train_series_'+str(set_idx)+'.lst')
 			print('min count='+str(np.min(counts))+' / '+str(img_num))
 			print('max count='+str(np.max(counts))+' / '+str(img_num))
 			return 0
 
-	print('job completed! voc index file generated: /sources/rec_files/train_series_'+str(set_idx)+'.lst')
+	print('job completed! mx .lst file generated: /sources/rec_files/train_series_'+str(set_idx)+'.lst')
 	print('min count='+str(np.min(counts))+' / '+str(img_num))
 	print('max count='+str(np.max(counts))+' / '+str(img_num))
 
