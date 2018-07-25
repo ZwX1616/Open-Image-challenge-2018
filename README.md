@@ -1,7 +1,7 @@
 # Open-Image-challenge-2018
 my solution to Google's Open Image Dataset v4 challenge
 
-*for quick setup, read /root/Note/APPNOTE.py
+*for quick setup, read /Note/APPNOTE.py
 
 folders organization:
 (now supports: mxnet-SSD training (and predicting))
