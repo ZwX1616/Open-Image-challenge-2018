@@ -57,6 +57,10 @@ root
 │
 ├── outputs
 │   └── <training result folders>
+│ 
+├── predictions
+│   ├── <test set prediction results for each series>
+│   └── submission.csv
 │
 └── train_distn_sorted.txt //class names sorted by number of samples
 ```
